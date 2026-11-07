@@ -1,0 +1,25 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Lamp Builder</title>
+        <item>
+            <title>1.1.0</title>
+            <pubDate>Sat, 07 Nov 2026 12:52:40 -0600</pubDate>
+            <sparkle:version>4</sparkle:version>
+            <sparkle:shortVersionString>1.1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Lamp Builder 1.1.0
+
+- Automatic checks for new versions, with a choice to install when you are ready.
+- Check for Updates and an automatic-check preference in the Lamp Builder menu, available from Home and project windows.
+- Developer ID signing and Apple notarization for public downloads.
+
+Your lamp designs, collections, and purchase receipts stay in their existing locations.
+
+Requires an Apple silicon Mac running macOS 15 or later. Existing 1.0.0 installations need this DMG once to gain in-app updates.
+]]></description>
+            <enclosure url="https://github.com/mrgooeyeye/lamp-builder-updates/releases/download/v1.1.0-build-4/Lamp-Builder-1.1.0-build-4-apple-silicon.dmg" length="4573454" type="application/octet-stream" sparkle:edSignature="rwcQfrB8RlUNSuLCAa7hS/ajKMGYyHc5lDIDPVe5/0tcUqGM34QUnGa740HckVx91k92+dmQShDlGvNTD3JJDw=="/>
+        </item>
+    </channel>
+</rss>
