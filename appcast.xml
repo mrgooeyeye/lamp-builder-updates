@@ -3,30 +3,21 @@
     <channel>
         <title>Lamp Builder</title>
         <item>
-            <title>1.2.0</title>
-            <pubDate>Tue, 17 Nov 2026 11:43:01 -0500</pubDate>
-            <sparkle:version>5</sparkle:version>
-            <sparkle:shortVersionString>1.2.0</sparkle:shortVersionString>
+            <title>1.2.1</title>
+            <pubDate>Tue, 17 Nov 2026 11:50:47 -0500</pubDate>
+            <sparkle:version>6</sparkle:version>
+            <sparkle:shortVersionString>1.2.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Lamp Builder 1.2.0
+            <description sparkle:format="markdown"><![CDATA[# Lamp Builder 1.2.1
 
-- Updated wrench-and-bulb icon in the app, Dock and Home toolbar button.
-- Save to Library is the primary save action, including Command-S. Collections organize the actual files on your Mac. Export Project Copy is available for sharing or a separate backup.
-- Opening a project from Home or the library returns to its existing tab. First library saves now associate the tab with the saved file.
-- Rotate fittings, previews and mounted accessories in 45-degree (one-eighth turn) steps.
-- Cord-entry placement uses a crosshair over the highlighted fitting. The action is now named Add cord entry.
-- Socket and bulb choices remain expanded in Properties, with all three illustrated bulb styles preserved.
-- Add a configurable steel support disk beneath a flange, starting at 24 inches by one-quarter inch. Enter a measured mass or use the labeled steel-density estimate. The disk is visible in 3D and included in center-of-mass and support-footprint calculations.
-- Balance includes an animated tipping-risk cue, with Reduce Motion support. This is a static planning estimate, not a physical tipping simulation or a weld/anchor strength assessment.
-- X-ray reveals proposed internal wire routes through the current design. Wiring opens a circuit concept, socket/switch/entry inventory, editable external cord length and end allowances, and estimated internal runs, with PDF export.
-- Wiring recognizes both separate switches and older toggle-switch caps. Disconnected loads, multiple entries and unresolved switch arrangements are flagged instead of receiving invented circuit assignments.
+- Clean app icon with a genuinely transparent exterior, smooth rounded corners and consistent macOS icon padding.
+- Removed the black square around the blue wrench-and-bulb artwork.
+- Updated icon packaging for the Dock, Finder and Home toolbar button.
 
-Balance, routing and sample dimensions are estimates. Wiring output is a concept for review, not a fabrication-approved wiring plan: electrical ratings, grounding, strain relief, conductor fill and testing still require verification. Existing projects, collections and receipts remain in their current locations.
-
-Requires an Apple silicon Mac running macOS 15 or later.
+Includes all improvements from 1.2.0. Projects, collections and receipts remain in their existing locations.
 ]]></description>
-            <enclosure url="https://github.com/mrgooeyeye/lamp-builder-updates/releases/download/v1.2.0-build-5/Lamp-Builder-1.2.0-build-5-apple-silicon.dmg" length="4824742" type="application/octet-stream" sparkle:edSignature="y6fWKZW3IaxRQqJoAhnZgqFwpNbWZqwK+W2TVhvENN4Iju2AddpcdYV6QqKQUScotnE9+AyJkz94D61gADVLDw=="/>
+            <enclosure url="https://github.com/mrgooeyeye/lamp-builder-updates/releases/download/v1.2.1-build-6/Lamp-Builder-1.2.1-build-6-apple-silicon.dmg" length="4617659" type="application/octet-stream" sparkle:edSignature="upQUwR5zoSJxY1t2wIiQuMVQ7M35tH4ZIObEJoAjrNk05U/kV5hDijIulvfVO1uyBJ3ss/W9N1FlVyORjz41CQ=="/>
         </item>
     </channel>
 </rss>
