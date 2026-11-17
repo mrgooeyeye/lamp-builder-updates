@@ -3,21 +3,25 @@
     <channel>
         <title>Lamp Builder</title>
         <item>
-            <title>1.2.1</title>
-            <pubDate>Tue, 17 Nov 2026 11:50:47 -0500</pubDate>
-            <sparkle:version>6</sparkle:version>
-            <sparkle:shortVersionString>1.2.1</sparkle:shortVersionString>
+            <title>1.2.2</title>
+            <pubDate>Tue, 17 Nov 2026 13:49:31 -0500</pubDate>
+            <sparkle:version>7</sparkle:version>
+            <sparkle:shortVersionString>1.2.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Lamp Builder 1.2.1
+            <description sparkle:format="markdown"><![CDATA[# Lamp Builder 1.2.2
 
-- Clean app icon with a genuinely transparent exterior, smooth rounded corners and consistent macOS icon padding.
-- Removed the black square around the blue wrench-and-bulb artwork.
-- Updated icon packaging for the Dock, Finder and Home toolbar button.
+- Restored the house symbol on the Home toolbar button.
 
-Includes all improvements from 1.2.0. Projects, collections and receipts remain in their existing locations.
+- Live balance details now appear automatically at the top left of the 3D canvas for table and floor lamps. No status-bar click is needed.
+- Tipping risk has a prominent red heading and border, with its animated cue, footprint diagram, estimated margin, mass and corrective suggestions visible in the panel.
+- Quick Connect and cord-placement options appear beside the balance panel when space allows; narrow windows stack the cards with scrolling.
+- X-ray controls move to the lower right to keep the top-left panel clear.
+- Corrected the Quick Connect elbow description to say Turn 90 degrees; assembly rotation remains in 45-degree steps.
+
+Balance remains an estimate based on the recorded parts and loads, not a certification of structural safety.
 ]]></description>
-            <enclosure url="https://github.com/mrgooeyeye/lamp-builder-updates/releases/download/v1.2.1-build-6/Lamp-Builder-1.2.1-build-6-apple-silicon.dmg" length="4617659" type="application/octet-stream" sparkle:edSignature="upQUwR5zoSJxY1t2wIiQuMVQ7M35tH4ZIObEJoAjrNk05U/kV5hDijIulvfVO1uyBJ3ss/W9N1FlVyORjz41CQ=="/>
+            <enclosure url="https://github.com/mrgooeyeye/lamp-builder-updates/releases/download/v1.2.2-build-7/Lamp-Builder-1.2.2-build-7-apple-silicon.dmg" length="4628530" type="application/octet-stream" sparkle:edSignature="luP3OJU5rLPukKaL1dm4p+PF3jxJDpa/e9zGhxP87tP2Q4ko7BnRXypv+fsYYyiQhVv+D+/ouxe9zKgEuVDoBQ=="/>
         </item>
     </channel>
 </rss>
