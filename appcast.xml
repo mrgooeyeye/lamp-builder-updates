@@ -3,23 +3,30 @@
     <channel>
         <title>Lamp Builder</title>
         <item>
-            <title>1.1.0</title>
-            <pubDate>Sat, 07 Nov 2026 12:52:40 -0600</pubDate>
-            <sparkle:version>4</sparkle:version>
-            <sparkle:shortVersionString>1.1.0</sparkle:shortVersionString>
+            <title>1.2.0</title>
+            <pubDate>Tue, 17 Nov 2026 11:43:01 -0500</pubDate>
+            <sparkle:version>5</sparkle:version>
+            <sparkle:shortVersionString>1.2.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Lamp Builder 1.1.0
+            <description sparkle:format="markdown"><![CDATA[# Lamp Builder 1.2.0
 
-- Automatic checks for new versions, with a choice to install when you are ready.
-- Check for Updates and an automatic-check preference in the Lamp Builder menu, available from Home and project windows.
-- Developer ID signing and Apple notarization for public downloads.
+- Updated wrench-and-bulb icon in the app, Dock and Home toolbar button.
+- Save to Library is the primary save action, including Command-S. Collections organize the actual files on your Mac. Export Project Copy is available for sharing or a separate backup.
+- Opening a project from Home or the library returns to its existing tab. First library saves now associate the tab with the saved file.
+- Rotate fittings, previews and mounted accessories in 45-degree (one-eighth turn) steps.
+- Cord-entry placement uses a crosshair over the highlighted fitting. The action is now named Add cord entry.
+- Socket and bulb choices remain expanded in Properties, with all three illustrated bulb styles preserved.
+- Add a configurable steel support disk beneath a flange, starting at 24 inches by one-quarter inch. Enter a measured mass or use the labeled steel-density estimate. The disk is visible in 3D and included in center-of-mass and support-footprint calculations.
+- Balance includes an animated tipping-risk cue, with Reduce Motion support. This is a static planning estimate, not a physical tipping simulation or a weld/anchor strength assessment.
+- X-ray reveals proposed internal wire routes through the current design. Wiring opens a circuit concept, socket/switch/entry inventory, editable external cord length and end allowances, and estimated internal runs, with PDF export.
+- Wiring recognizes both separate switches and older toggle-switch caps. Disconnected loads, multiple entries and unresolved switch arrangements are flagged instead of receiving invented circuit assignments.
 
-Your lamp designs, collections, and purchase receipts stay in their existing locations.
+Balance, routing and sample dimensions are estimates. Wiring output is a concept for review, not a fabrication-approved wiring plan: electrical ratings, grounding, strain relief, conductor fill and testing still require verification. Existing projects, collections and receipts remain in their current locations.
 
-Requires an Apple silicon Mac running macOS 15 or later. Existing 1.0.0 installations need this DMG once to gain in-app updates.
+Requires an Apple silicon Mac running macOS 15 or later.
 ]]></description>
-            <enclosure url="https://github.com/mrgooeyeye/lamp-builder-updates/releases/download/v1.1.0-build-4/Lamp-Builder-1.1.0-build-4-apple-silicon.dmg" length="4573454" type="application/octet-stream" sparkle:edSignature="rwcQfrB8RlUNSuLCAa7hS/ajKMGYyHc5lDIDPVe5/0tcUqGM34QUnGa740HckVx91k92+dmQShDlGvNTD3JJDw=="/>
+            <enclosure url="https://github.com/mrgooeyeye/lamp-builder-updates/releases/download/v1.2.0-build-5/Lamp-Builder-1.2.0-build-5-apple-silicon.dmg" length="4824742" type="application/octet-stream" sparkle:edSignature="y6fWKZW3IaxRQqJoAhnZgqFwpNbWZqwK+W2TVhvENN4Iju2AddpcdYV6QqKQUScotnE9+AyJkz94D61gADVLDw=="/>
         </item>
     </channel>
 </rss>
