@@ -3,25 +3,22 @@
     <channel>
         <title>Lamp Builder</title>
         <item>
-            <title>1.2.2</title>
-            <pubDate>Tue, 17 Nov 2026 13:49:31 -0500</pubDate>
-            <sparkle:version>7</sparkle:version>
-            <sparkle:shortVersionString>1.2.2</sparkle:shortVersionString>
+            <title>1.2.3</title>
+            <pubDate>Tue, 17 Nov 2026 14:02:32 -0500</pubDate>
+            <sparkle:version>8</sparkle:version>
+            <sparkle:shortVersionString>1.2.3</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Lamp Builder 1.2.2
+            <description sparkle:format="markdown"><![CDATA[# Lamp Builder 1.2.3
 
-- Restored the house symbol on the Home toolbar button.
+- Replaced the always-open balance panel with a compact stability meter fixed in the upper-left corner of the canvas.
+- The meter fills upward as the estimated base margin decreases, with green, amber and red states. Unsupported assemblies show “Add a base” instead of a low-risk reading.
+- Click the meter to expand the footprint, estimated loads, tipping animation and suggestions. Close with the X, Escape or a click outside; details stay closed until requested again.
+- Quick Connect and cord-placement controls remain available beneath the compact meter.
 
-- Live balance details now appear automatically at the top left of the 3D canvas for table and floor lamps. No status-bar click is needed.
-- Tipping risk has a prominent red heading and border, with its animated cue, footprint diagram, estimated margin, mass and corrective suggestions visible in the panel.
-- Quick Connect and cord-placement options appear beside the balance panel when space allows; narrow windows stack the cards with scrolling.
-- X-ray controls move to the lower right to keep the top-left panel clear.
-- Corrected the Quick Connect elbow description to say Turn 90 degrees; assembly rotation remains in 45-degree steps.
-
-Balance remains an estimate based on the recorded parts and loads, not a certification of structural safety.
+The meter is a relative planning indicator, not a probability of tipping or a structural safety certification.
 ]]></description>
-            <enclosure url="https://github.com/mrgooeyeye/lamp-builder-updates/releases/download/v1.2.2-build-7/Lamp-Builder-1.2.2-build-7-apple-silicon.dmg" length="4628530" type="application/octet-stream" sparkle:edSignature="luP3OJU5rLPukKaL1dm4p+PF3jxJDpa/e9zGhxP87tP2Q4ko7BnRXypv+fsYYyiQhVv+D+/ouxe9zKgEuVDoBQ=="/>
+            <enclosure url="https://github.com/mrgooeyeye/lamp-builder-updates/releases/download/v1.2.3-build-8/Lamp-Builder-1.2.3-build-8-apple-silicon.dmg" length="4651911" type="application/octet-stream" sparkle:edSignature="zUpdx3ml/hJXmwY5Afmha35qE9TCy+kIkH3x9ue8gJSQ4G6RVD3QJoh/F6RVRfIFx+o/1/nlHbaT5o4Nu1qnCQ=="/>
         </item>
     </channel>
 </rss>
